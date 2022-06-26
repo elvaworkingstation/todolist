@@ -1,0 +1,53 @@
+
+div{
+    width: 70vw;
+    background-color: gray;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 24px auto;
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #00557f;
+    margin: 5px;
+}
+
+input{
+    font-size: 24px;
+    padding: 8px;
+    outline: none;
+    width: 50%;
+}
+#add-button {
+    font-size: 24px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: lightblue;
+    transition: .5s;
+    cursor: pointer;
+}
+#add-button:disabled {
+    background-color: revert;
+    cursor: default;
+}
+
+.delete-button {
+    background: none;
+    color: white;
+    border: 1px solid transparent;
+
+}
